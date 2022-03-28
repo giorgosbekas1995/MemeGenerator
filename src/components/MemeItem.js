@@ -4,8 +4,6 @@ import { createMeme } from "../actions";
 
 function MemeItem({ data, text0, text1 }) {
   const dispatch = useDispatch();
-  let notxt = "";
-  const state = useSelector((state) => state);
   const [hover, setHover] = useState(false);
 
   function postMeme() {

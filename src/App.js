@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>React-Redux-Hooks Meme Generator</h1>
+      <h1>React-Redux-API Meme Generator</h1>
       <h4>Write your text and then choose your meme</h4>
       <MyMemes />
       <Form>
